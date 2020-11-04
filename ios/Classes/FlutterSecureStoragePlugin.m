@@ -1,6 +1,6 @@
 #import "FlutterSecureStoragePlugin.h"
 
-static NSString *const KEYCHAIN_SERVICE = @"flutter_secure_storage_service";
+static NSString *const KEYCHAIN_SERVICE = @"io.patch.people.keychainservice";
 static NSString *const CHANNEL_NAME = @"plugins.it_nomads.com/flutter_secure_storage";
 
 static NSString *const InvalidParameters = @"Invalid parameter's type";
