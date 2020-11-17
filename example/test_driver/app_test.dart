@@ -3,6 +3,8 @@ import 'package:test/test.dart';
 
 void main() {
   group('Secure Storage Example', () {
+    final counterTextFinder = find.byValueKey('counter');
+    final buttonFinder = find.byValueKey('increment');
 
     HomePageObject pageObject;
     FlutterDriver driver;

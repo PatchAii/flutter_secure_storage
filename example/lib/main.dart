@@ -126,7 +126,7 @@ class _ItemsWidgetState extends State<ItemsWidget> {
             context: context,
             builder: (context) => _EditItemWidget(item.value));
         if (result != null) {
-          await _storage.write(key: item.key, value: result);
+          _storage.write(key: item.key, value: result);
           _readAll();
         }
         break;
